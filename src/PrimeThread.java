@@ -43,6 +43,7 @@ public class PrimeThread implements Runnable{
 	}
 	public static boolean isPrime(int toTest)
 	{
+		
 		if (toTest == 2){
 			return true;
 		}

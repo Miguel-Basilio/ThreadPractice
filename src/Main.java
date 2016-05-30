@@ -61,7 +61,7 @@ public class Main {
 	{
 		try {
 			PrintWriter print = new PrintWriter(new File("primes .txt"));
-			for (int i = 0; i< primes.size(); i++){
+			for (int i  = 0; i< primes.size(); i++){
 				print.println(primes.get(i));
 		}
 		print.close();
